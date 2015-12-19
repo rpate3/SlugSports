@@ -1,0 +1,28 @@
+Glen William Herrera
+Slugs With Attitude
+Slug Sports
+Method Test
+
+The game creation module has 5 parameters: your name, time, event name, preferred number of players, additional info. The module has two different outcomes, (1) the user's information is accepted and they are taken back to the list of events, or (2) the user's input is rejected and they are told to input valid information. The latter will happen if any one of the fields is blank.
+
+E.C. 1.1, valid name
+E.C. 1.2, invalid name
+E.C. 2.1, valid time
+E.C. 2.2, invalid time
+E.C. 3.1, valid event name
+E.C. 3.2, invalid event name
+E.C. 4.1, valid number of players
+E.C. 4.2, invalid number of players
+E.C. 5.1, valid name
+E.C. 5.2, invalid name
+
+From these equivalence classes we have the test set as 1.a X 2.b X 3.c X 4.d X 5.e . There are a large number of combinations of equivalence classes, but there are only two test cases.
+
+1) (1.y X 2.y X 3.y X 4.y X 5.y) where a || b || c || d || e == 2;
+
+Expected output = The app will reject the input and tell the user to input valid information (fill in the blank fields).
+
+2) (1.y X 2.y X 3.y X 4.y X 5.y) where a && b && c && d && e == 1;
+
+Expected output = The app will accept the input and create the user's game on the parse database. The user will then be taken back to the list of games.
+

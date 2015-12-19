@@ -1,0 +1,14 @@
+Module Sign In has two parameters: email address, which is a string and password, which is a string as well. The modules worst outcome is that the user is rejected from signing in because of one of two reasons 1) invalid email address or 2) invalid password. The Google API handles checking if the information the user entered is indeed correct and then grants the user access to continue. The user needs to have a valid gmail account because then they will have access to the OPERS calendar information and this allows us to identify the user so that we can personalize the account with their currently joined events. 
+
+The equivalence classes for the Sign In module are: 
+EC 1.1 valid gmail email address
+EC 1.2 invalid gmail email address
+EC 2.1 valid password to email address
+EC 2.2 invalid password to email address
+
+-The test cases to cover the cross products of these equivalent classes are: 
+Test cases are for email address X password 
+Input = foobar@gmail.com X valid password; expected output = four options for the user to choose from to continue deeper into the application, covers EC 1.1, 2.1
+Inputer = foobar@xxx.com X invalid password; expected output = Google rejects the information and the user is presented with the sign in screen again, covers EC 1.2, 2.1 
+
+

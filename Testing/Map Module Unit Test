@@ -1,0 +1,37 @@
+Robert Daniels
+Product Name: Slug Sports
+Team Name: Slugs With Attitude (SWA)
+December 03, 2015
+
+Unit Test for the Map Module:
+
+The map module of our app has one input parameter, the desired location.  This parameter is chosen from a list of pre-determined 
+locations which we copied letter for letter from the maps.ucsc.edu page.  When the user clicks on a location, the location is added 
+to the base url of maps.ucsc.edu and returns a google map with a pin on the desired location.
+
+1)	Equivalence Classes:
+  a)	East Field
+  b)	East Field House Dance Studio
+  c)	East Field House Gym
+  d)	East Field House Martial Arts Room
+  e)	East Field House Racquetball Court
+  f)	East Remote Field
+  g)	OPERS Pool
+  h)	Wellness Center
+  i)	West Field House
+  j)	West Gym
+  k)	West Tennis Courts
+
+2)	Test Cases:
+  a)	Input = East Field; expected output = maps.ucsc.edu/content/east-field
+  b)	Input = East Field House Dance Studio; expected output = maps.ucsc.edu/content/east-field-house-dance-studio
+  c)	Input = East Field House Gym; expected output = maps.ucsc.edu/content/east-field-house-gym
+  d)	Input = East Field House Martial Arts Room; expected output = maps.ucsc.edu/content/east-field-house-martial-arts-room
+  e)	Input = East Field House Racquetball Court; expected output = maps.ucsc.edu/content/east-field-house-racquetball-court
+  f)	Input = East Remote Field; expected output = maps.ucsc.edu/content/east-remote-field
+  g)	Input = OPERS Pool; expected output = maps.ucsc.edu/content/opers-pool
+  h)	Input = Wellness Center; expected output = maps.ucsc.edu/content/wellness-center
+  i)	Input = West Field House; expected output = maps.ucsc.edu/content/west-field-house
+  j)	Input = West Gym; expected output = maps.ucsc.edu/content/west-gym
+  k)	Input = West Tennis Courts; expected output = maps.ucsc.edu/content/west-tennis-courts
+

@@ -1,0 +1,18 @@
+Release Plan 1:
+
+1. names and emails of all students in the group
+
+Max Kerscher-Santelli - mkersche@ucsc.edu 
+Daniel Roberts - rwdaniel@ucsc.edu
+Sean Mendenhall - semenden@ucsc.edu
+Will Herrera - gcherrer@ucsc.edu
+Rahul Patel - rpate3@ucsc.edu
+
+2. tentative project title (including a one or two sentence description of the project
+
+Slug Sports. A user friendly application to facilitate pick up sports games around campus.
+Students will be able to set up an event with the time and location of a pick up game so 
+that other interested students can join. 
+
+3. TEAM name so we can refer to you collectively
+Slugs With Attitude (S.W.A)

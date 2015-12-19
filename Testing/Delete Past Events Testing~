@@ -1,0 +1,24 @@
+Max Kerscher-Santelli
+Slugs With Attitude
+Slug Sports
+Method Test
+
+Method: deletePastEvents()
+Description: delete past events is suppose to call a query to the server for all events that have already happened. Then it is suppose to loop through this list and destroy all of these objects. 
+
+Test Cases:
+EC1.1: Empty database
+EC1.2: Database with only events that have already expired
+EC1.3: Database with only events that have not expired yet
+EC1.4: Database with events that have expired and not expired.
+
+Input values:
+EC1.1; Input = Empty database, Output = “delete successful”
+EC1.2; Input = Database with one expired event, Output = “delete successful”
+EC1.2; Input = Database with 10 expired events, Output = “delete successful”
+EC1.3; Input = Database with one current event, Output = “delete successful”
+EC1.3; Input = Database with 10 current events, Output = “delete successful”
+EC1.4; Input = Database with one current event and one expired event, Output = “delete successful”
+EC1.4; Input = Database with 10 current events and 10 expired events, Output = “delete successful”
+
+

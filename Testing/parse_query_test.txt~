@@ -1,0 +1,16 @@
+Module Parse Query has three input parameters: sport, which is a string, location, which is a string, and day, which is a integer between 1 and 31. The Module’s the worst outcome is that it returns nothing because the search didn’t have any results; this is because the input is controlled in such a way, through the user interface, that erroneous input is impossible. We control the user’s input so as to only receive valid search criteria. The normal outcome of the module is to return a list of games that match the user’s selected search criteria.
+-The equivalence classes for Module Parse Query are:
+
+EC 1.1 Soccer
+EC 1.2 Basketball
+EC 2.1 East Field
+EC 2.2 West Field Gym
+EC 3.1 integers between 1 and 31
+
+-The test cases to cover the cross products of these equivalent classes are:
+
+Test cases are for sport X location X day :
+
+1) Input = Soccer x East Field X 2; expected output = games that match search criteria; covers EC 1.1, 2.1, 3.1
+
+2) Input = Basketball x West Field Gym X 29; expected output = games that match search criteria; covers EC 1.2, 2.2, 3.1
